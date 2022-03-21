@@ -1,0 +1,10 @@
+version="1.0.0"
+tags={
+    "Culture"
+    "Graphics"
+    "Map"
+    "Historical"
+}
+name="东方王朝自用特殊建筑"
+supported_version="1.5.*"
+path="mod/OE_Sp_Builds"
