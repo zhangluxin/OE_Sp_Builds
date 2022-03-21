@@ -13,3 +13,8 @@
  building_type_apanggong_02_desc:0 "#F 六王毕，四海一；蜀山兀，阿房出。#!"
  building_apanggong_02:0 "阿房宫"
  building_apanggong_02_desc:0 "$building_type_apanggong_02_desc"
+
+ building_type_songyangshuyuan:0 "太乙书院"
+ building_type_songyangshuyuan_desc:0 "#F 近四旁、惟中央，统泰华恒衡，四塞关河拱神岳；历九朝，为都会，包伊廛洛涧，三台风雨作高山。#!"
+ building_songyangshuyuan:0 "太乙书院"
+ building_songyangshuyuan_desc:0 "$building_type_songyangshuyuan_desc$"

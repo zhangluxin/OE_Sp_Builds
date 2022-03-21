@@ -101,3 +101,39 @@ apanggong_02 = {
 	}
 	type = special
 }
+
+#嵩阳书院
+songyangshuyuan = {
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_cathedral_indian.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	is_enabled = {
+        scope:holder = {
+            religion = religion:confucianism_religion
+        }
+	}
+	cost_gold = 1000
+	character_modifier = {
+		monthly_piety = 0.5
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_county_control_change_factor = 0.1
+		short_reign_duration_mult = -0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	province_modifier = {
+		monthly_income = 2
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+
+#瓦岗寨
+
