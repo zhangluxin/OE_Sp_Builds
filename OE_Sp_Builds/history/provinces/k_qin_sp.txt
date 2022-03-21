@@ -1,0 +1,13 @@
+﻿#k_qin
+
+#c_xianyang
+#b_Xianyang
+9857 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+	special_building = apanggong_01
+}
