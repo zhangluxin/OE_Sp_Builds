@@ -1,0 +1,15 @@
+#b_LongmenCave
+10863 = {
+    culture = han
+	holding = church_holding
+	special_building = longmenshiku_01
+}
+
+#c_songshan
+#b_Songshan_Dengfeng
+10054 = {
+	culture = han
+	religion = zenzong
+	holding = church_holding
+	special_building = shaolinsi
+}

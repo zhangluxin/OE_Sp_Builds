@@ -1,0 +1,34 @@
+#少林寺
+shaolinsi = {
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_buddhas_of_bamiyan.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	is_enabled = {
+		OR = {
+				scope:holder = {
+					religion = religion:confucianism_religion
+				}
+				scope:holder = {
+					religion = religion:buddhism_religion
+				}
+		}
+	}
+	show_disabled = yes
+	cost_gold = 1000
+	character_modifier = {
+		different_culture_opinion = 10
+		monthly_piety = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	county_modifier = {
+		development_growth_factor = 0.2
+		development_growth = 0.2
+		tax_mult = 0.2
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}

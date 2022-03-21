@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ 
+ building_type_shaolinsi:0 "少林寺"
+ building_type_shaolinsi_desc:0 "#F 长歌游宝地，屣倚对珠林。雁塔霜风古，龙池岁月深。绀园澄夕霁，碧殿下秋阴。归路烟霞晚，山蝉处处吟。#!"
+ building_shaolinsi:0 "少林寺"
+ building_shaolinsi_desc:0 "$building_type_shaolinsi_desc$"
