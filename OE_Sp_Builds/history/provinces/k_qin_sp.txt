@@ -11,3 +11,17 @@
 	}
 	special_building = apanggong_01
 }
+
+# b_Lantian
+9861 = {
+	holding = none
+	special_building_slot = lantian_mines_01
+}
+
+# b_ShangLuo
+9999 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+	special_building = dayunsi
+}

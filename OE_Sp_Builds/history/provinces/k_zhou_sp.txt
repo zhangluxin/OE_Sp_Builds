@@ -23,3 +23,25 @@
 	}
 	special_building = songyangshuyuan
 }
+
+# 滑州
+10083 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+	special_building = wangangzhai
+}
+
+# 虢州
+10037 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+	special_building = hanguguan
+}
