@@ -19,13 +19,13 @@ shaolinsi = {
 	cost_gold = 1000
 	character_modifier = {
 		different_culture_opinion = 10
-		monthly_piety = 0.5
+		monthly_prestige = 0.5
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
-		development_growth_factor = 0.2
-		development_growth = 0.2
-		tax_mult = 0.2
+		development_growth_factor = 0.1
+		development_growth = 0.1
+		tax_mult = 0.1
 	}
 	ai_value = {
 		base = 100
@@ -60,21 +60,15 @@ apanggong_02 = {
 	cost_gold = 3000
 	cost_prestige = 1000
 	character_modifier = {
-		stewardship_per_prestige_level = 2
-		diplomacy = 2
-		monthly_dynasty_prestige_mult = 0.1
+		fertility = 0.2
 		monthly_prestige = 1
+		monthly_dynasty_prestige_mult = 0.1
 		domain_limit = 4
-		direct_vassal_opinion = 10
-		same_culture_opinion = 5
 	}
 	county_modifier = {
-		development_growth_factor = 0.3
-		development_growth = 0.3
-		tax_mult = 0.3
-	}
-	duchy_capital_county_modifier = {
-		tax_mult = 0.15
+		development_growth_factor = 0.2
+		development_growth = 0.2
+		tax_mult = 0.2
 	}
 	ai_value = {
 		base = 100
@@ -102,8 +96,8 @@ songyangshuyuan = {
 		short_reign_duration_mult = -0.1
 	}
 	county_modifier = {
-		development_growth_factor = 0.2
-		development_growth = 0.2
+		development_growth_factor = 0.1
+		development_growth = 0.1
 	}
 	province_modifier = {
 		monthly_income = 2
@@ -123,7 +117,7 @@ wangangzhai = {
 	province_modifier = {
 		defender_advantage = 3
 		fort_level = 1
-		monthly_income = 0.2
+		monthly_income = 2
 	}
 	county_modifier = {
 		development_growth = 0.1
@@ -142,7 +136,7 @@ hanguguan = {
 	province_modifier = {
 		defender_advantage = 3
 		fort_level = 1
-		monthly_income = 0.2
+		monthly_income = 2
 	}
 	county_modifier = {
 		development_growth = 0.1
@@ -299,14 +293,13 @@ dayunsi = {
 	show_disabled = yes
 	cost_gold = 1000
 	character_modifier = {
-		different_culture_opinion = 10
 		monthly_piety = 0.5
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
 		development_growth_factor = 0.2
 		development_growth = 0.2
-		tax_mult = 0.2
+		tax_mult = 0.1
 	}
 	ai_value = {
 		base = 100
