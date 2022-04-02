@@ -45,3 +45,14 @@
 	}
 	special_building = hanguguan
 }
+
+# 伊川
+10049 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding
+	906.1.1 = { 
+		religion = lixue
+	}
+	special_building = yichuanshuyuan
+}

@@ -1,0 +1,12 @@
+﻿# 开封
+#b_Kaifeng_Bianzhou
+10079 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+	special_building = daxiangguosi
+	1066.1.1 = { 
+		religion = lixue
+		duchy_capital_building = songhuanggong
+	}
+}

@@ -44,3 +44,13 @@
  building_type_dayunsi_desc:0 "#F 在隋代大兴国寺原址兴建，并用琉璃瓶盛装14粒佛祖骨舍利再配以石函，于公元694年重新瘗葬放入地宫，建塔供奉，这比陕西扶风法门寺地宫要早180年。#!"
  building_dayunsi:0 "大云寺"
  building_dayunsi_desc:0 "$building_type_dayunsi_desc$"
+
+ building_type_yichuanshuyuan:0 "伊皋书院"
+ building_type_yichuanshuyuan_desc:0 "#F 由理学家程颐建立，广为人知的“程门立雪”的故事即发生于此地。#!"
+ building_yichuanshuyuan:0 "伊皋书院"
+ building_yichuanshuyuan_desc:0 "$building_type_yichuanshuyuan_desc$"
+
+ building_type_songhuanggong:0 "大皇宫"
+ building_type_songhuanggong_desc:0 "#F 仿照洛阳宫殿紫微城的模式，在五代旧宫的基础上建造的。#!"
+ building_songhuanggong:0 "大皇宫"
+ building_songhuanggong_desc:0 "$building_type_songhuanggong_desc$"
