@@ -313,6 +313,10 @@ yichuanshuyuan = {
 songhuanggong = {
 	construction_time = very_slow_construction_time
 	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	can_construct_potential = {
+	    barony = title:b_Kaifeng_Bianzhou
+		building_requirement_tribal = no
+	}
 	cost_gold = 800
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.07
