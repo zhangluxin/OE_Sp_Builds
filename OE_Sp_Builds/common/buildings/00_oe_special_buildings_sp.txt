@@ -316,11 +316,13 @@ songhuanggong = {
 	cost_gold = 800
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.07
-		monthly_prestige = 1.5
+		monthly_prestige = 2
 		stewardship_per_prestige_level = 2
 	}
 	county_modifier = {
 		tax_mult = 0.2
+		development_growth_factor = 0.1
+		development_growth = 0.1
 	}
 	province_modifier = {
 		fort_level = 3
@@ -330,4 +332,39 @@ songhuanggong = {
 		base = 10
 	}
 	type = duchy_capital
+}
+
+#大相国寺
+daxiangguosi = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_buddhas_of_bamiyan.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		different_culture_opinion = 10
+		monthly_piety = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.2
+		development_growth = 0.2
+		tax_mult = 0.2
+	}
+	
+		
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
 }
