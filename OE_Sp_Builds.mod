@@ -4,6 +4,7 @@ tags={
     "Graphics"
     "Map"
     "Historical"
+    "Religion"
 }
 name="东方王朝自用特殊建筑"
 supported_version="1.5.*"
