@@ -1,0 +1,53 @@
+﻿# 张贺
+feiyu000_001 = {
+	dynasty = feiyu_family_002
+	name = "Feiyu_name0"
+	culture = han
+	religion = jingxue
+	trait = beauty_good_2
+	trait = intellect_good_3
+	trait = physique_good_1
+	trait = education_stewardship_4
+	931.6.7 = {
+		birth=yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+
+#魏强
+feiyu000_002 = {
+	dynasty = feiyu_family_001
+	name = "Feiyu_name1"
+	culture = han
+	religion = jingxue
+	trait = beauty_good_2
+	trait = intellect_good_3
+	trait = physique_good_2
+	trait = education_stewardship_4
+	931.6.7 = {
+		birth=yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+
+#谭铮
+feiyu000_003 = {
+	dynasty = feiyu_family_003
+	name = "Feiyu_name3"
+	culture = han
+	religion = jingxue
+	trait = beauty_good_3
+	trait = intellect_good_2
+	trait = physique_good_3
+	trait = education_martial_4
+	931.6.7 = {
+		birth=yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
