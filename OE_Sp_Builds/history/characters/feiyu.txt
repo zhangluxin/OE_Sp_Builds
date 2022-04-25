@@ -1,6 +1,6 @@
 ﻿# 张贺
 feiyu000_001 = {
-	dynasty = puzhou_zhang_dyn
+	dynasty = junyi_zhang_dyn
 	name = "Feiyu_name0"
 	culture = han
 	religion = jingxue
@@ -54,7 +54,7 @@ feiyu000_003 = {
 
 #王白继
 feiyu000_004 = {
-	dynasty = kaifeng_wang_dyn
+	dynasty = langya_wang_dyn
 	name = "Feiyu_name4"
 	culture = han
 	religion = jingxue
@@ -90,7 +90,7 @@ feiyu000_005 = {
 
 #王常春
 feiyu000_006 = {
-	dynasty = kaifeng_wang_dyn
+	dynasty = wannian_wang_dyn
 	name = "Feiyu_name6"
 	culture = han
 	religion = jingxue
@@ -107,7 +107,7 @@ feiyu000_006 = {
 }
 
 #杨海金
-feiyu000_006 = {
+feiyu000_007 = {
 	dynasty = hongnong_yang_dyn
 	name = "Feiyu_name7"
 	culture = han
