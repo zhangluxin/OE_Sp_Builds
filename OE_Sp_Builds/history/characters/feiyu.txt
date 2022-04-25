@@ -1,6 +1,6 @@
 ﻿# 张贺
 feiyu000_001 = {
-	dynasty = feiyu_family_002
+	dynasty = puzhou_zhang_dyn
 	name = "Feiyu_name0"
 	culture = han
 	religion = jingxue
@@ -18,14 +18,14 @@ feiyu000_001 = {
 
 #魏强
 feiyu000_002 = {
-	dynasty = feiyu_family_001
+	dynasty = 1000048018
 	name = "Feiyu_name1"
 	culture = han
 	religion = jingxue
 	trait = beauty_good_2
 	trait = intellect_good_3
 	trait = physique_good_2
-	trait = education_stewardship_4
+	trait = education_diplomacy_4
 	931.6.7 = {
 		birth=yes
 	}
@@ -36,7 +36,7 @@ feiyu000_002 = {
 
 #谭铮
 feiyu000_003 = {
-	dynasty = feiyu_family_003
+	dynasty = 1000050022
 	name = "Feiyu_name3"
 	culture = han
 	religion = jingxue
@@ -44,6 +44,78 @@ feiyu000_003 = {
 	trait = intellect_good_2
 	trait = physique_good_3
 	trait = education_martial_4
+	931.6.7 = {
+		birth=yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+
+#王白继
+feiyu000_004 = {
+	dynasty = kaifeng_wang_dyn
+	name = "Feiyu_name4"
+	culture = han
+	religion = jingxue
+	trait = beauty_good_2
+	trait = intellect_good_3
+	trait = physique_good_2
+	trait = education_learning_4
+	931.6.7 = {
+		birth=yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+
+#杜威
+feiyu000_005 = {
+	dynasty = jingzhao_du_dyn
+	name = "Feiyu_name5"
+	culture = han
+	religion = jingxue
+	trait = beauty_good_2
+	trait = intellect_good_2
+	trait = physique_good_3
+	trait = education_learning_4
+	931.6.7 = {
+		birth=yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+
+#王常春
+feiyu000_006 = {
+	dynasty = kaifeng_wang_dyn
+	name = "Feiyu_name6"
+	culture = han
+	religion = jingxue
+	trait = beauty_good_3
+	trait = intellect_good_2
+	trait = physique_good_3
+	trait = education_learning_4
+	931.6.7 = {
+		birth=yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+
+#杨海金
+feiyu000_006 = {
+	dynasty = hongnong_yang_dyn
+	name = "Feiyu_name7"
+	culture = han
+	religion = jingxue
+	trait = beauty_good_2
+	trait = intellect_good_2
+	trait = physique_good_3
+	trait = education_learning_4
 	931.6.7 = {
 		birth=yes
 	}
