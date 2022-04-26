@@ -379,3 +379,85 @@ daxiangguosi = {
 	
 	type = special
 }
+
+##########
+# 大明宫
+##########
+
+daminggong_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_daminggong_mesh"
+	}
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_hagia_sophia.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		learning = 1
+	}
+		
+	ai_value = {
+		base = 100
+	}
+	
+	next_building = daminggong_02
+	
+	type = special
+}
+
+daminggong_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_hagia_daminggong_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_hagia_sophia.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}	
+	
+	show_disabled = yes
+	
+	cost_gold = 3000
+	cost_prestige = 1000
+
+	character_modifier = {
+		stewardship_per_prestige_level = 2
+		diplomacy = 2
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_prestige = 1
+		vassal_limit = 6
+		direct_vassal_opinion = 10
+		same_culture_opinion = 5
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.3
+		development_growth = 0.3
+		tax_mult = 0.3
+	}
+	
+	duchy_capital_county_modifier = {
+		tax_mult = 0.15
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
