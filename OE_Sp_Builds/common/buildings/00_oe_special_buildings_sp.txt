@@ -440,7 +440,7 @@ daminggong_02 = {
 		diplomacy = 2
 		monthly_dynasty_prestige_mult = 0.1
 		monthly_prestige = 1
-		vassal_limit = 6
+		domain_limit = 6
 		direct_vassal_opinion = 10
 		same_culture_opinion = 5
 	}
