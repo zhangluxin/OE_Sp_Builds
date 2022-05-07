@@ -5,8 +5,5 @@
 	religion = zhengyi
 	holding = castle_holding	
 	special_building = daxiangguosi
-	1066.1.1 = { 
-		religion = lixue
-		duchy_capital_building = songhuanggong
-	}
+	duchy_capital_building = songhuanggong
 }

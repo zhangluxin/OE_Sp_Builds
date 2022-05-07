@@ -8,10 +8,11 @@ feiyu000_001 = {
 	trait = intellect_good_3
 	trait = physique_good_1
 	trait = education_stewardship_4
-	931.6.7 = {
+	dna = feiyu_male_dna_001
+	954.6.7 = {
 		birth=yes
 	}
-	981.1.1 = {
+	1005.1.1 = {
 		death = yes
 	}
 }
@@ -26,10 +27,11 @@ feiyu000_002 = {
 	trait = intellect_good_3
 	trait = physique_good_2
 	trait = education_diplomacy_4
-	931.6.7 = {
+	dna = feiyu_male_dna_002
+	954.6.7 = {
 		birth=yes
 	}
-	981.1.1 = {
+	1005.1.1 = {
 		death = yes
 	}
 }
@@ -44,10 +46,11 @@ feiyu000_003 = {
 	trait = intellect_good_2
 	trait = physique_good_3
 	trait = education_martial_4
-	931.6.7 = {
+	dna = feiyu_male_dna_003
+	954.6.7 = {
 		birth=yes
 	}
-	981.1.1 = {
+	1005.1.1 = {
 		death = yes
 	}
 }
@@ -62,10 +65,11 @@ feiyu000_004 = {
 	trait = intellect_good_3
 	trait = physique_good_2
 	trait = education_learning_4
-	931.6.7 = {
+	dna = feiyu_male_dna_003
+	954.6.7 = {
 		birth=yes
 	}
-	981.1.1 = {
+	1005.1.1 = {
 		death = yes
 	}
 }
@@ -80,10 +84,11 @@ feiyu000_005 = {
 	trait = intellect_good_2
 	trait = physique_good_3
 	trait = education_learning_4
-	931.6.7 = {
+	dna = feiyu_male_dna_002
+	954.6.7 = {
 		birth=yes
 	}
-	981.1.1 = {
+	1005.1.1 = {
 		death = yes
 	}
 }
@@ -98,10 +103,11 @@ feiyu000_006 = {
 	trait = intellect_good_2
 	trait = physique_good_3
 	trait = education_learning_4
-	931.6.7 = {
+	dna = feiyu_male_dna_001
+	954.6.7 = {
 		birth=yes
 	}
-	981.1.1 = {
+	1005.1.1 = {
 		death = yes
 	}
 }
@@ -116,10 +122,11 @@ feiyu000_007 = {
 	trait = intellect_good_2
 	trait = physique_good_3
 	trait = education_learning_4
-	931.6.7 = {
+	dna = feiyu_male_dna_003
+	954.6.7 = {
 		birth=yes
 	}
-	981.1.1 = {
+	1005.1.1 = {
 		death = yes
 	}
 }
