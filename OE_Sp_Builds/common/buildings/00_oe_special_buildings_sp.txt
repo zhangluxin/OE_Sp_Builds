@@ -26,7 +26,7 @@ shaolinsi = {
 # 阿房宫
 apanggong_01 = {
 	construction_time = very_slow_construction_time
-	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	type_icon = "becp_icon_epanggong.dds"
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -43,7 +43,7 @@ apanggong_01 = {
 
 apanggong_02 = {
 	construction_time = very_slow_construction_time
-	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	type_icon = "becp_icon_epanggong.dds"
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -120,6 +120,50 @@ wangangzhai = {
 hanguguan = {
 	construction_time = very_slow_construction_time
 	type_icon = "icon_structure_walls_of_genoa.dds"
+	cost_gold = 580
+	province_modifier = {
+		defender_advantage = 3
+		fort_level = 1
+		monthly_income = 2
+	}
+	county_modifier = {
+		development_growth = 0.1
+	}
+	character_modifier = {
+		domain_limit = 2
+	}
+	ai_value = {
+		base = 500
+	}
+	type = special
+}
+
+# 武关
+wuguan = {
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_walls_of_genoa.dds"
+	cost_gold = 580
+	province_modifier = {
+		defender_advantage = 3
+		fort_level = 1
+		monthly_income = 2
+	}
+	county_modifier = {
+		development_growth = 0.1
+	}
+	character_modifier = {
+		domain_limit = 2
+	}
+	ai_value = {
+		base = 500
+	}
+	type = special
+}
+
+# 子午道
+ziwudao = {
+	construction_time = very_slow_construction_time
+	type_icon = "becp_icon_zhandao.dds"
 	cost_gold = 580
 	province_modifier = {
 		defender_advantage = 3
@@ -329,11 +373,12 @@ songhuanggong = {
 		monthly_prestige = 2
 		stewardship_per_prestige_level = 2
 		domain_limit = 5
+		court_grandeur_baseline_add	= 15
 	}
 	county_modifier = {
 		tax_mult = 0.2
-		development_growth_factor = 0.1
-		development_growth = 0.1
+		development_growth_factor = 0.2
+		development_growth = 0.2
 	}
 	province_modifier = {
 		fort_level = 3
@@ -460,4 +505,23 @@ daminggong_02 = {
 	}
 	
 	type = special
+}
+
+# 郑国渠
+zhengguoqu = { 
+	construction_time = standard_construction_time
+	type_icon = "becp_icon_tongyongheliu.dds"
+	type = special
+
+	cost_gold = normal_building_tier_2_cost
+
+	county_modifier = { 
+		tax_mult = 0.02 
+		development_growth = 0.2 
+		county_opinion_add = 5
+	}
+
+	ai_value = {
+		base = 10
+	}
 }
