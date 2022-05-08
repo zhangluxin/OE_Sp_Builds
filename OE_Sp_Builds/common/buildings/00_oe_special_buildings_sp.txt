@@ -318,7 +318,7 @@ yichuanshuyuan = {
 #大皇宫
 songhuanggong = {
 	construction_time = very_slow_construction_time
-	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	type_icon = "becp_icon_dongjingcheng.dds"
 	can_construct_potential = {
 	    barony = title:b_Kaifeng_Bianzhou
 		building_requirement_tribal = no

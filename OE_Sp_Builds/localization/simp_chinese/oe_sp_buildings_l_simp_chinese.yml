@@ -50,7 +50,7 @@
  building_yichuanshuyuan:0 "伊皋书院"
  building_yichuanshuyuan_desc:0 "$building_type_yichuanshuyuan_desc$"
 
- building_type_songhuanggong:0 "大皇宫"
+ building_type_songhuanggong:0 "汴梁宫"
  building_type_songhuanggong_desc:0 "#F 仿照洛阳宫殿紫微城的模式，在五代旧宫的基础上建造的。#!"
- building_songhuanggong:0 "大皇宫"
+ building_songhuanggong:0 "汴梁宫"
  building_songhuanggong_desc:0 "$building_type_songhuanggong_desc$"
