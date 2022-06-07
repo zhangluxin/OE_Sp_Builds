@@ -1,3 +1,4 @@
+# 大明宫
 daminggong_01 = {
 	construction_time = very_slow_construction_time
 	asset = {
@@ -50,6 +51,7 @@ daminggong_02 = {
 	type = special
 }
 
+# 紫微宫
 ziweigong = {
 	construction_time = very_slow_construction_time
 	asset = {
@@ -77,4 +79,82 @@ ziweigong = {
 		base = 100
 	}
 	type = special
+}
+
+#东京城-开封
+becp_duchy_dongjingcheng_01 = {
+	construction_time = very_slow_construction_time 
+	type_icon = "becp_icon_dongjingcheng.dds"
+	type = duchy_capital
+
+	show_disabled = yes
+
+
+	cost_gold = 2000 
+	cost_piety = 150 
+
+	county_modifier = { 
+		tax_mult = 0.05 #地产赋税 %
+		development_growth_factor = 0.02 #发展增长 %
+	}
+	province_modifier = { 
+		garrison_size = 0.1 #守军规模 %
+		monthly_county_control_change_factor = 0.05 #控制力增长 %
+	}
+	character_modifier = { 
+		monthly_dynasty_prestige_mult = 0.03 
+		vassal_limit = 1 
+		knight_limit = 1 
+		monthly_prestige = 0.5 
+		court_grandeur_baseline_add	= 5 
+		cultural_head_fascination_mult = 0.02 #文化偏好进度 %
+		clergy_opinion = 5 
+		dynasty_house_opinion = 10 
+		attraction_opinion = 5 
+		same_culture_opinion = 5 
+	}
+	next_building = becp_duchy_dongjingcheng_02
+	ai_value = {
+		base = 6
+	}
+}
+becp_duchy_dongjingcheng_02 = {
+	construction_time = very_slow_construction_time 
+	type = duchy_capital
+
+	show_disabled = yes
+
+	cost_gold = 4500 
+	cost_piety = 550 
+
+	county_modifier = { 
+		development_growth_factor = 0.10 #发展增长 %
+		tax_mult = 0.15 #地产赋税 %
+		county_opinion_add = 10 #民众好感度（county_modifier）
+	}
+	province_modifier = { 
+		garrison_size = 0.15 #守军规模 %
+        monthly_county_control_change_factor = 0.1 #控制力增长 %
+	}
+	character_modifier = { 
+		monthly_dynasty_prestige_mult = 0.05 
+		general_opinion	= 10 
+		vassal_limit = 3 
+		knight_limit = 2 
+		knight_effectiveness_mult = 0.1 
+		clergy_opinion = 10 
+		dynasty_house_opinion = 20 
+		attraction_opinion = 10 
+		same_culture_opinion = 5 
+		court_grandeur_baseline_add	= 15 
+		cultural_head_fascination_mult	= 0.05 #文化偏好进度 %
+		ignore_negative_culture_opinion	= yes 
+		diplomacy_per_prestige_level = 2 #每级威望等级使外交+
+		stewardship_per_prestige_level = 2 #每级威望等级使管理+
+		monthly_learning_lifestyle_xp_gain_mult	= 0.05 #每月生活方式经验值 %
+	}
+	
+	ai_value = {
+		base = 6
+	}
 }
