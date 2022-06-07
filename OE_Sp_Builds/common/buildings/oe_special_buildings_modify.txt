@@ -1,13 +1,10 @@
-##########
-# 大明宫
-##########
-
 daminggong_01 = {
 	construction_time = very_slow_construction_time
-	# type_icon = "king_palace.dds"
-	can_construct_potential = {
-		building_requirement_tribal = no
+	asset = {
+		type = pdxmesh
+		name = "building_special_daminggong_mesh"
 	}
+	type_icon = "king_palace.dds"
 	show_disabled = yes
 	cost_gold = 1000
 	character_modifier = {
@@ -21,15 +18,12 @@ daminggong_01 = {
 }
 
 daminggong_02 = {
-	# asset = {
-	# 	type = pdxmesh
-	# 	name = "building_special_palace_of_aachen_mesh"
-	# }
 	construction_time = very_slow_construction_time
-	type_icon = "king_palace2.dds"
-	can_construct_potential = {
-		building_requirement_tribal = no
+	asset = {
+		type = pdxmesh
+		name = "building_special_daminggong_mesh"
 	}
+	type_icon = "king_palace.dds"
 	show_disabled = yes
 	cost_gold = 3000
 	cost_prestige = 1000
@@ -56,12 +50,13 @@ daminggong_02 = {
 	type = special
 }
 
-#紫微宫
 ziweigong = {
 	construction_time = very_slow_construction_time
-	# type_icon = "king_palace3.dds"
-	can_construct_potential = {
+	asset = {
+		type = pdxmesh
+		name = "building_special_daminggong_mesh"
 	}
+	type_icon = "king_palace3.dds"
 	show_disabled = yes
 	cost_gold = 1000
 	character_modifier = {
