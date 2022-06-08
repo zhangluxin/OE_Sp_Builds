@@ -89,7 +89,9 @@ becp_duchy_dongjingcheng_01 = {
 
 	show_disabled = yes
 
-
+	can_construct_potential = { 
+		barony = title:b_Kaifeng_Bianzhou
+	}
 	cost_gold = 2000 
 	cost_piety = 150 
 
@@ -154,6 +156,68 @@ becp_duchy_dongjingcheng_02 = {
 		monthly_learning_lifestyle_xp_gain_mult	= 0.05 #每月生活方式经验值 %
 	}
 	
+	ai_value = {
+		base = 6
+	}
+}
+
+# 阿房宫
+becpe_special_afanggong = { 
+	construction_time = very_slow_construction_time 
+	type_icon = "becp_icon_epanggong.dds"
+	type = special
+
+	show_disabled = yes
+
+	cost_gold = 1500 
+	cost_piety = 10 
+
+	county_modifier = { 
+		tax_mult = 0.03 #地产赋税 %
+		monthly_county_control_change_add = 0.1 
+		supply_limit_mult = 0.05 #补给上限 %
+		garrison_size = 0.1 #守军规模 %
+	}
+	character_modifier = { 
+		monthly_dynasty_prestige_mult = 0.03 
+		monthly_dynasty_prestige = 0.5 
+		court_grandeur_baseline_add	= 10 
+		dynasty_house_opinion = 5 
+	}
+	next_building = becpe_special_afanggong_02
+	ai_value = {
+		base = 6
+	}
+}
+
+becpe_special_afanggong_02 = { 
+	construction_time = very_slow_construction_time 
+	type_icon = "becp_icon_epanggong.dds"
+	type = special
+
+	show_disabled = yes
+
+	cost_gold = 2500 
+	cost_piety = 150 
+
+	county_modifier = { 
+		tax_mult = 0.05 #地产赋税 %
+		monthly_county_control_change_add = 0.3 
+		supply_limit_mult = 0.1 #补给上限 %
+		garrison_size = 0.2 #守军规模 %
+		additional_fort_level = 2 
+		levy_size = 0.1 #征召兵规模 %
+	}
+	character_modifier = { 
+		monthly_dynasty_prestige_mult = 0.03 
+		vassal_limit = 1 
+		knight_limit = 1 
+		monthly_dynasty_prestige = 0.5 
+		court_grandeur_baseline_add	= 10 
+		dynasty_house_opinion = 20 
+		monthly_learning_lifestyle_xp_gain_mult	= 0.03 #每月生活方式经验值 %
+		ignore_negative_culture_opinion	= yes 
+	}
 	ai_value = {
 		base = 6
 	}
